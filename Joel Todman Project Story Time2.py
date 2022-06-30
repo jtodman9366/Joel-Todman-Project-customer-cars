@@ -1,4 +1,4 @@
-print("Project: Custom Cars")
+print("~Tales at UMBC~"\n (A place of fiction"())
 print("========================")
 print("Welcometo the UMBC\nCar Customization Form!")
 print("========================")
@@ -42,16 +42,5 @@ print()
 print("========================")
 print("~ Summary~ ")
 print(f"Make & Model Option: {choice}\nUpgrade to 2-door Sedan With Sunroof: {upgrade}\nExterior Color: {ExteriorColor}\nDeluxe Weather Package: {deluxePackage}\nEngine Option: {engineType}\nHeated Seats: {heatedSeats}")
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
 
