@@ -1,20 +1,44 @@
-print("Welcome to movie time! you will answer a few True and False questions. Please only enter T or F when its your time to answer. Have Fun!")
+print("~Tales at UMBC~\n (A place of fiction)")
+print("========================")
+print("Welcometo the UMBC\nCar Customization Form!")
+print("========================")
+
+# Make & Model Selection 
+print("1. Select your car mske & model choice ")
+print("  a.dodge")
+print("  b.toyota")
+print("  c.lexus")
+print("  d.camary")
+choice  = input("Please Enter 'a' - 'd' ")
+
+#Upgrade Options
 print()
+print("2. Would you like to upgrade from  4-door sedan w/o sunroof to a 2-doorsedan with sunroof")
+upgrade  = input("Please Enter 'yes' or 'no' ")
 
-# The quiz question and answers in two tupals
-questions = ('Q1. Friday and Saturday nights are the best time to go to the movies', 'Q2. Star Wars was a bad movie', 'Q3. Going to the movies is fun!')
-answers = ('T', 'F', 'T')
+#Car Exterior
+print()
+print("3. What color would you like the exterior of your car? ")
+ExteriorColor = input("Please Enter your exterior color you would like: ")
 
-#determine the number of questions, using len function
-numberOfQuestions = len(questions)
-score = 0
-# for loop, using the range function
-for index in range(numberOfQuestions):
-  guess = input(f" {questions[index]} please Enter T or F: ")
-  if guess == answers[index]:
-    score +=1
-  if guess != answers[index]:
-    input(f" {questions[index]} please Enter T or F: ")
-#print out the number of questions the user got right....
-print(f"you have {score} out of 3 correct...Thanks for playing")
+#Deluxe Package
+print()
+print("4. Would you like the Deluxe weather package? ")
+deluxePackage  = input("Please Enter 'yes' or 'no' ")
 
+#Car Engine
+print()
+print("5. What type of Engine would you like?")
+print("  a.I-4 Entry Engine")
+print("  b.V-6 Performance Engine")
+print("  c.ECO Deisel Engine")
+engineType = input("Please Enter 'a' - 'c' ")
+
+#Heated Seats
+print()
+print("6. Would you like the Heated Seats option? ")
+heatedSeats  = input("Please Enter 'yes' or 'no' ")
+print()
+print("========================")
+print("~ Summary~ ")
+print(f"Make & Model Option: {choice}\nUpgrade to 2-door Sedan With Sunroof: {upgrade}\nExterior Color: {ExteriorColor}\nDeluxe Weather Package: {deluxePackage}\nEngine Option: {engineType}\nHeated Seats: {heatedSeats}")
